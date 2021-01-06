@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import Aux from '../../../hoc/Auxiliary'
 import Button from '../../UI/Button/Button'
-import BurgerBuilder from "../../../containers/BurgerBuilder/BurgerBuilder";
 
 class OrderSummary extends Component {
     componentDidUpdate(nextProps, nextState, nextContext) {
