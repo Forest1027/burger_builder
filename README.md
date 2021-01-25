@@ -8,6 +8,17 @@ User login -> If succeed, server returns token ->
 Client stores it in local storage -> 
 Return the token whenever a request is sent -> 
 Server verifies token first before proceeding any request
+## Unit Test
+- Don't test the library
+- Don't test complex connections
+- Do test isolated units
+- Do test conditional outputs
+
+Tools:
+- Test Runner: Jest
+    - Executes Tests and Provides validation Library
+- Testing Utilities: Enzyme
+    - "Simulates" the React App (mounts components, allows you to dig into the DOM)
 
 # How to use
 Create a .env file in root folder to store api key.
