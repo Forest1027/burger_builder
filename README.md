@@ -25,4 +25,10 @@ Create a .env file in root folder to store api key.
 Add this .env file to .gitignore.
 See reference [How to Store API Keys and ENV Vars in a create-react-app Project](http://lortza.github.io/2018/05/22/create-react-app-api-keys.html)
 
+# Deployment Steps
+- Check & Adjust Basepath
+- Build & Optimize Project
+- Server must always serve index.html (for 404 case)
+- Upload Build Artifacts to (static) server
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
