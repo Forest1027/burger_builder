@@ -93,7 +93,7 @@ const ContactData = props => {
             },
         }
     );
-    const [loading, setLoading] = useState(false);
+    const [loading] = useState(false);
     const [formIsValid, setFormIsValid] = useState(false);
 
     const orderHandler = (event) => {
